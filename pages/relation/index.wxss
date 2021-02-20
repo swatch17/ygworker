@@ -1,0 +1,61 @@
+/* pages/relation/index.wxss */
+.relation-page {
+  padding: 10px;
+}
+
+.tab {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #40a9ff;
+  padding-bottom: 10px;
+}
+
+.tab-item {
+  color: #40a9ff;
+  justify-content: center;
+  display: flex;
+  flex: 1;
+}
+
+.title {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.list-item {
+  display: flex;
+  border: 1px solid #40a9ff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.item-left {}
+
+.img {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #333;
+}
+
+.item-right {
+  padding-left: 10px;
+}
+
+.item-cell {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.item-hd {
+  display: flex;
+  flex: 1;
+}
+
+.item-ft {
+  width: 60px;
+  font-size: 13px;
+  text-align: right;
+}

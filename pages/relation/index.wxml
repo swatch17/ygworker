@@ -1,0 +1,25 @@
+<!--pages/relation/index.wxml-->
+<view class="relation-page">
+  <view class="tab">
+    <view class="tab-item">所有任务</view>
+    <view class="tab-item">与我相关</view>
+  </view>
+  <view class="title">与你技能认证相关的任务</view>
+  <view class="list">
+    <navigator class="list-item" url="/pages/task/detail/index">
+      <view class="item-left">
+        <view class="img"></view>
+      </view>
+      <view class="item-right">
+        <view class="item-cell">
+          <view class="item-hd row_2">天街小雨润如酥，草色遥看近却无。最是一年春好处，绝胜烟柳满皇都。</view>
+          <view class="item-ft">已报名</view>
+        </view>
+        <view class="item-cell">
+          <view class="item-hd">发布时间：2020-01-23</view>
+          <view class="item-ft">￥10000</view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>

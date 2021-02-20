@@ -1,0 +1,17 @@
+/* pages/skill/index.wxss */
+.skill-page {
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+}
+
+.detail {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #989FA9;
+}
+.cell{
+  margin-bottom: 10px;
+}

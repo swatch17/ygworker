@@ -1,0 +1,23 @@
+/* pages/mine/edit/index.wxss */
+.edit-page {
+  padding: 10px;
+}
+
+.avatar {
+  background-color: #999;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.cell {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.submit-btn {
+  margin-top: 30px;
+  color: #fff;
+  background-color: #40a9ff;
+}

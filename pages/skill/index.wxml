@@ -1,0 +1,26 @@
+<!--pages/skill/index.wxml-->
+<view class="skill-page">
+  <view class="title">
+    请移至PC端完成更多的技能认证
+  </view>
+  <view class="content">
+    <view class="avatar"></view>
+  </view>
+  <view class="detail">
+    <view class="cell">
+      <text>项目方向：软件开发</text>
+    </view>
+    <view class="cell">
+      <text>项目类型：网站开发</text>
+    </view>
+    <view class="cell">
+      <text>接单状态：开启</text>
+    </view>
+    <view class="cell">
+      <text>作品：酒店管理系统</text>
+    </view>
+    <view class="cell">
+      <text>反馈：感谢你完善项目经验，平台将会根据你的项目经验匹配更合适你的项目</text>
+    </view>
+  </view>
+</view>

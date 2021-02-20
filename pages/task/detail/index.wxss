@@ -1,0 +1,35 @@
+/* pages/task/detail/index.wxss */
+.task-detail-page {
+  padding: 10px;
+}
+
+.menu {
+  overflow: auto;
+  display: flex;
+  justify-content: space-around;
+  white-space: nowrap;
+  position: absolute;
+  top: 0;
+  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.menu-item {
+  padding: 3px 0;
+  margin: 0 3px;
+  display: inline-block;
+  background-color: #1890ff;
+  color: #fff;
+  width: 70px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.content {
+  border: 1px solid #1890ff;
+  margin-top: 20px;
+  padding:10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,54 @@
+<!--index.wxml-->
+<view class="worker-index">
+  <view class="banner">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{banners}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper-item">
+            <image mode="aspectFit" src="{{item.url}}"></image>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="task">
+    <view class="task__item">
+      <view class="task-img">
+        <image class="task-icon" src="../../images/index/task-1.png"></image>
+      </view>
+      <text class="task-text">我的任务</text>
+      <text class="tips">2</text>
+    </view>
+    <view class="task__item">
+      <view class="task-img">
+        <image class="task-icon" src="../../images/index/task-1.png"></image>
+      </view>
+      <text class="task-text">相关任务</text>
+      <text class="tips">2</text>
+    </view>
+    <view class="task__item">
+      <view class="task-img">
+        <image class="task-icon" src="../../images/index/task-1.png"></image>
+      </view>
+      <text class="task-text">技能认证</text>
+      <text class="tips">22</text>
+    </view>
+  </view>
+  <view class="recommend">
+    <view class="recommend-item">新手须知</view>
+    <view class="recommend-item">常见问题</view>
+    <view class="recommend-item">技能审核规则</view>
+  </view>
+  <view class="article">
+    <view class="article-hd">大咖故事</view>
+    <view class="article-item">
+      this just test article
+    </view>
+    <view class="article-item">
+      this just test article
+    </view>
+    <view class="article-item">
+      this just test article
+    </view>
+  </view>
+</view>

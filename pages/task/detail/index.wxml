@@ -1,0 +1,14 @@
+<!--pages/task/detail/index.wxml-->
+<view class="task-detail-page">
+  <view class="menu">
+    <view class="menu-item" wx:for="{{menus}}" wx:key="index">{{item.label}}</view>
+  </view>
+  <view class="content">
+    <view class="content-hd"><text>项目方向：程序开发</text></view>
+    <view class="content-hd"><text>项目类型：小程序开发</text></view>
+    <view class="content-hd"><text>项目名称：商城开发</text></view>
+    <view class="content-bd row_2">
+      <text>项目描述：叶问和宫二虽然一南一北境遇各异，但是二人在武学世界里惺惺相惜、志同道合，是高山流水的知音。--《一代宗师》 王家卫</text>
+    </view>
+  </view>
+</view>

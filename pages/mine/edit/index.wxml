@@ -1,0 +1,24 @@
+<!--pages/mine/edit/index.wxml-->
+<view class="edit-page">
+  <view class="cell">
+    <text class="cell-label">头像</text>
+    <view class="cell-bd">
+      <image class="avatar" bindtap='chooseImage' src=""></image>
+    </view>
+  </view>
+  <view class="cell">
+    <text class="cell-label">昵称</text>
+    <view class="cell-bd"><input bindinput="onChange" value="{{name}}" data-type="name" type="text" /></view>
+  </view>
+  <view class="cell">
+    <text class="cell-label">手机号</text>
+    <view class="cell-bd"><input bindinput="onChange" type="text" data-type="mobile" value="{{mobile}}" /></view>
+  </view>
+  <view class="cell">
+    <text class="cell-label">邮箱</text>
+    <view class="cell-bd"><input bindinput="onChange" type="text" data-type="email" value="{{email}}" /></view>
+  </view>
+  <view class="cell">
+    <button class="submit-btn" loading="{{loadingn}}" bindtap="onSubmit">确定修改</button>
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<!--pages/mine/index.wxml-->
+<view class="mine-page">
+  <view class="head">
+    <view class="head-lf">
+      <view class="img"></view>
+      <text>昵称</text>
+    </view>
+    <navigator class="head_rt" url="/pages/mine/edit/index">
+      》
+    </navigator>
+  </view>
+  <view class="info">
+    <view class="info-item">累计收益：￥1000</view>
+    <view class="info-item">信用分：1000</view>
+  </view>
+  <view class="list">
+    <view class="list-item" wx:for="{{menus}}" wx:key="key">{{item.label}}{{key}}</view>
+  </view>
+</view>

@@ -1,0 +1,67 @@
+/* pages/task/mine.wxss */
+.task-page {
+  padding: 10px;
+}
+
+.task-select {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.picker {
+  margin-left: 20px;
+  border: 1px solid #40a9ff;
+  padding: 4px;
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.task-list {
+  margin-top: 20px;
+}
+
+.task-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #40a9ff;
+  border-radius: 10px;
+}
+
+.item-left {
+  height: 80px;
+  width: 80px;
+  border: 1px solid #333;
+}
+
+.item-right {
+  font-size: 12px;
+  margin-left: 5px;
+  display: flex;
+  flex: 1;
+}
+
+.item-right-box {
+  width: 100%;
+}
+
+.item-hd {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  margin-bottom: 10px;
+}
+
+.item-bd {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-status {
+  width: 50px;
+  text-align: center;
+  color: #989FA9;
+  font-size: 12px;
+}

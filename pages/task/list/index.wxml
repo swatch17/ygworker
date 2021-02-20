@@ -1,0 +1,28 @@
+<!--pages/task/mine.wxml-->
+<view class="task-page">
+  <view class="task-select">
+    <label for="">我的任务</label>
+    <picker bindchange="onPicker" value="{{index}}" range="{{taskList}}">
+      <view class="picker">{{taskList[index]}}</view>
+    </picker>
+  </view>
+  <view class="task-list">
+    <navigator class="task-item" url="/pages/task/detail/index">
+      <view class="item-left"></view>
+      <view class="item-right">
+        <view class="item-right-box">
+          <view class="item-hd">
+            <view class="row_2">视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营
+              视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营视频号，微博内容运营
+            </view>
+            <view class="item-status">进行中</view>
+          </view>
+          <view class="item-bd">
+            <view class="">发布时间：2020-01-23</view>
+            <view class="">￥10000</view>
+          </view>
+        </view>
+      </view>
+    </navigator>
+  </view>
+</view>
